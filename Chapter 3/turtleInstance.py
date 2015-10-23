@@ -4,6 +4,7 @@
 
 import turtle
 
+
 # Set up the window environment
 wn = turtle.Screen()
 wn.bgcolor('lightgreen')

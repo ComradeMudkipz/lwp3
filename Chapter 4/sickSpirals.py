@@ -5,6 +5,7 @@
 
 import turtle
 
+
 def make_window(color, title):
     w = turtle.Screen()
     w.bgcolor(color)

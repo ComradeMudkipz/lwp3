@@ -5,6 +5,7 @@
 import turtle
 __import__("turtle").__traceable__ = False
 
+
 def draw_multicolor_square(t, sz):
     """Make turtle t draw a multi-color square of sz."""
     for i in ["red", "purple", "hotpink", "blue"]:

@@ -4,6 +4,7 @@
 
 import turtle
 
+
 def make_window(colr, ttle):
     """
     Set up the window with the given background color and title.
@@ -13,7 +14,6 @@ def make_window(colr, ttle):
     w.bgcolor(colr)
     w.title(ttle)
     return w
-
 
 def make_turtle(colr, sz):
     """

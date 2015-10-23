@@ -3,6 +3,8 @@
 
 
 import turtle
+
+
 wn = turtle.Screen()
 draw = turtle.Turtle()
 draw.hideturtle()
