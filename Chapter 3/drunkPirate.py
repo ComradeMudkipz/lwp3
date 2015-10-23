@@ -4,6 +4,8 @@
 
 import turtle
 wn = turtle.Screen()
+
+
 wn.bgcolor('light green')
 drunk = turtle.Turtle()
 drunk.color('red')
