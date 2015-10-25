@@ -5,7 +5,6 @@
 
 import turtle
 
-
 # Creates screen and user-inputted attributes for turtle
 bgColor = input("What color would you like the background? ")
 wn = turtle.Screen()

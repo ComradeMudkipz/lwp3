@@ -4,12 +4,12 @@
 
 import turtle
 
-
 def make_window(color, title):
     w = turtle.Screen()
     w.bgcolor(color)
     w.title(title)
     return w
+
 
 def make_turtle(color, size):
     t = turtle.Turtle()
@@ -17,10 +17,12 @@ def make_turtle(color, size):
     t.pensize(size)
     return t
 
+
 def draw_square(s):
     for i in range(4):
         josh.forward(s)
         josh.left(90)
+
 
 def square_reposition(a, b):
     josh.penup()
